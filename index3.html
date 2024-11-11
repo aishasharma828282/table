@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+    }
+
+    table {
+      width: 100%;
+      max-width: 1000px;
+      margin: 20px auto;
+      border-collapse: collapse;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      background-color: #ffffff;
+    }
+
+    th, td {
+      padding: 12px 20px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #4CAF50;
+      color: white;
+      font-size: 1.1em;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    tr:hover {
+      background-color: #f1f1f1;
+    }
+
+    td strong {
+      color: #333;
+    }
+
+    /* Responsive Design */
+    @media screen and (max-width: 768px) {
+      th, td {
+        padding: 10px 15px;
+      }
+      table {
+        width: 90%;
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+      th, td {
+        padding: 8px 12px;
+      }
+      table {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th>Time</th>
+        <th>Activity</th>
+        <th>Duration</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>5:00 AM</strong></td>
+        <td>Wake up</td>
+        <td>-</td>
+        <td>Start with a glass of warm water with lemon to kick-start metabolism.</td>
+      </tr>
+      <tr>
+        <td><strong>5:10 - 5:40 AM</strong></td>
+        <td>Morning bathroom break (toilet time)</td>
+        <td>30 mins</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td><strong>5:45 - 5:55 AM</strong></td>
+        <td>Morning yoga/stretching session</td>
+        <td>10 mins</td>
+        <td>Gentle stretches, focusing on breathing exercises to wake up the body and mind.</td>
+      </tr>
+      <tr>
+        <td><strong>6:00 - 7:00 AM</strong></td>
+        <td>Data science learning (Python, Math, or Statistics)</td>
+        <td>1 hr</td>
+        <td>Follow structured online courses (e.g., Coursera, Udacity) or read textbooks. Start with Python basics and data manipulation (Pandas and Numpy).</td>
+      </tr>
+      <tr>
+        <td><strong>7:00 - 7:10 AM</strong></td>
+        <td>Light breakfast</td>
+        <td>10 mins</td>
+        <td>Options: Oatmeal with nuts and fruits, green smoothie, or poha/upma with veggies for energy. Avoid processed sugar.</td>
+      </tr>
+      <tr>
+        <td><strong>7:14 AM</strong></td>
+        <td>Train to work (commute) - utilize time for learning</td>
+        <td>-</td>
+        <td>During commute, listen to podcasts or watch tutorials on data science topics, e.g., machine learning concepts or statistics basics.</td>
+      </tr>
+      <tr>
+        <td><strong>9:00 - 9:30 AM</strong></td>
+        <td>Arrive at office, bathroom break (toilet time)</td>
+        <td>30 mins</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td><strong>9:30 - 10:30 AM</strong></td>
+        <td>Data science learning (ML algorithms)</td>
+        <td>1 hr</td>
+        <td>Focus on basic machine learning algorithms like linear regression, k-nearest neighbors, or decision trees.</td>
+      </tr>
+      <tr>
+        <td><strong>10:30 AM - 1:00 PM</strong></td>
+        <td>Work as a frontend developer</td>
+        <td>2.5 hrs</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td><strong>1:00 - 1:20 PM</strong></td>
+        <td>Lunch - Part A (Veg)</td>
+        <td>20 mins</td>
+        <td>Balanced portion of protein, carbs, and fiber: roti/rice, dal/lentils, green vegetables, and curd. Avoid fried foods and excess oil.</td>
+      </tr>
+      <tr>
+        <td><strong>1:30 - 2:00 PM</strong></td>
+        <td>Gym (B Wing) - Cardio</td>
+        <td>30 mins</td>
+        <td>Focus on cardio exercises like treadmill walking, cycling, or elliptical to aid weight loss.</td>
+      </tr>
+      <tr>
+        <td><strong>2:10 - 2:40 PM</strong></td>
+        <td>Post-gym bathroom break (toilet time)</td>
+        <td>30 mins</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td><strong>2:40 - 5:45 PM</strong></td>
+        <td>Work as a frontend developer</td>
+        <td>3 hrs 5 mins</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td><strong>6:00 - 6:20 PM</strong></td>
+        <td>Evening gym (A Wing) - Strength training</td>
+        <td>20 mins</td>
+        <td>Bodyweight exercises (squats, push-ups, lunges) or light weights, as per comfort.</td>
+      </tr>
+      <tr>
+        <td><strong>6:30 - 8:00 PM</strong></td>
+        <td>Commute home (train) - utilize time for revision</td>
+        <td>-</td>
+        <td>Revisit the day’s data science learning; review notes or revise concepts.</td>
+      </tr>
+      <tr>
+        <td><strong>8:00 - 8:30 PM</strong></td>
+        <td>Dinner</td>
+        <td>30 mins</td>
+        <td>Light meal with vegetables, dal, roti, or rice. Avoid heavy, fried, or sugary foods.</td>
+      </tr>
+      <tr>
+        <td><strong>8:30 - 9:00 PM</strong></td>
+        <td>Data science project or practice</td>
+        <td>30 mins</td>
+        <td>Hands-on practice: Work on data sets (Kaggle or GitHub projects) to apply learned skills.</td>
+      </tr>
+      <tr>
+        <td><strong>9:00 - 9:30 PM</strong></td>
+        <td>Final bathroom break (toilet time)</td>
+        <td>30 mins</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td><strong>9:30 - 9:50 PM</strong></td>
+        <td>Personal time/wind down</td>
+        <td>20 mins</td>
+        <td>Relax, read, or engage in any calming activities before bed.</td>
+      </tr>
+      <tr>
+        <td><strong>10:00 PM</strong></td>
+        <td>Sleep</td>
+        <td>-</td>
+        <td>Aim for at least 7-8 hours of sleep for better focus and productivity.</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
